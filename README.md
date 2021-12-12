@@ -1,7 +1,9 @@
 # Coarse-to-fine-weakly-supervised-GPC-segmentation
 
 Description: A coarse-to-fine weakly supervised learning method for green plastic cover segmentation using high-resolution remote sensing images  
+
 Author: Yinxia Cao, Xin Huang  
+
 Author affiliation: School of Remote Sensing and Information Engineering, Wuhan University, Wuhan 430079, PR China  
 
 
@@ -12,12 +14,14 @@ Author affiliation: School of Remote Sensing and Information Engineering, Wuhan 
 ```
 python >=3.6
 pytorch >= 1.7.0 (lower version may be also work)
-GPU: 1080 
+GPU: NVIDIA GTX 1080 Ti GPU (11G memory)
 ```
 
 ## Model development
 
-This part will be available after the manuscript is accepted
+
+This part will be available after the manuscript is accepted.
+
 
 ## Contributing
 
