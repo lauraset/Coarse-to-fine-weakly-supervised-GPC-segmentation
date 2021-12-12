@@ -12,6 +12,7 @@ Author affiliation: School of Remote Sensing and Information Engineering, Wuhan 
 ```
 python >=3.6
 pytorch >= 1.7.0 (lower version may be also work)
+GPU: 1080 
 ```
 
 ## Model development
