@@ -25,6 +25,8 @@ For google earth images, a available link for XYZ connection is https://mt1.goog
 ```
 python qgis_download_google.py
 ```
+![image](https://user-images.githubusercontent.com/39206462/147477579-ecdb5dc8-961a-47e6-ba8a-5b3ab30f38a4.png)
+![image](https://user-images.githubusercontent.com/39206462/147477766-dd77a0be-7f0d-42c7-9cfa-a639189e1d33.png)
 
 ## Model development
 
