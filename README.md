@@ -34,7 +34,7 @@ python qgis_download_google.py
 ## Model development
 
 
-This part will be available within 7 days.
+This part will be available when the manuscript is available online.
 
 
 ## Contributing
