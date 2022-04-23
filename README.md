@@ -57,8 +57,8 @@ python train_regnet040_0.6_update.py
 ```
 
 ## Acknowledgement
-We used the package "segmentation_models_pytorch" and "pytorch-grad-cam"
-thanks for their contributions.  
+We used the package "segmentation_models_pytorch" and "pytorch-grad-cam".   
+Thanks for their contributions.  
 
 ```
 @misc{Yakubovskiy:2019,
@@ -82,7 +82,4 @@ thanks for their contributions.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-## Acknowledgments
 
