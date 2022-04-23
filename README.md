@@ -43,9 +43,12 @@ python train_regent040_0.6_balance.py
 python generate_cam_balance.py
 ```
 Step 2: applying unsupervised segmentation to images   
-refer to the [link](https://github.com/kanezaki/pytorch-unsupervised-segmentation)
+refer to the [link](https://github.com/kanezaki/pytorch-unsupervised-segmentation)  
+revise the input path and then run the following code. Note that two versions were provided.   
+There is little difference between the two versions. We just used the v1 in the paper.
 ```
-
+ptyhon generate_unsupervised_segmentation_v1.py
+[or python generate_unsupervised_segmentation_v2.py]
 ```
 Step 3: carrying out segmentation 
 ```
