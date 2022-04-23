@@ -1,0 +1,10 @@
+.\testvalid\gpc\img\108.png,.\testvalid\gpc\lab\108.png,0
+.\testvalid\gpc\img\117.png,.\testvalid\gpc\lab\117.png,0
+.\testvalid\gpc\img\123.png,.\testvalid\gpc\lab\123.png,0
+.\testvalid\gpc\img\128.png,.\testvalid\gpc\lab\128.png,0
+.\testvalid\gpc\img\158.png,.\testvalid\gpc\lab\158.png,0
+.\testvalid\gpc\img\171.png,.\testvalid\gpc\lab\171.png,0
+.\testvalid\gpc\img\173.png,.\testvalid\gpc\lab\173.png,0
+.\testvalid\gpc\img\47.png,.\testvalid\gpc\lab\47.png,0
+.\testvalid\gpc\img\87.png,.\testvalid\gpc\lab\87.png,0
+.\testvalid\gpc\img\95.png,.\testvalid\gpc\lab\95.png,0
