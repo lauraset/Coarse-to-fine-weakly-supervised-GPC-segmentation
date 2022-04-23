@@ -1,0 +1,8 @@
+torch 1.7.0+cu101
+torchvision 0.8.0
+tqdm
+tensorboardX 2.2
+opencv-python
+albumentations 1.0.3
+pandas
+segmentation-models-pytorch 0.2.0 (optional)
