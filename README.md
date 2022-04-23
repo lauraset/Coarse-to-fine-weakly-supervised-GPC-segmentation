@@ -32,10 +32,8 @@ python qgis_download_google.py
 ![image](https://user-images.githubusercontent.com/39206462/147477947-4489ce26-903d-4e04-a37e-b2a4d94881cf.png)
 
 ## Model development
-
-
-This part will be available when the manuscript is available online.
-
+The workflow of the proposed method is as follows:   
+![image](https://user-images.githubusercontent.com/39206462/164873266-3a94972b-ecee-4b0e-8055-a8f3921d3148.png)
 
 ## Contributing
 
