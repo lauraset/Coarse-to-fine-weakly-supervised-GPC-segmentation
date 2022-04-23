@@ -1,4 +1,0 @@
-.\data\gpc\img\6.png,0
-.\data\gpc\img\4.png,0
-.\data\gpc\img\10.png,0
-.\data\gpc\img\8.png,0

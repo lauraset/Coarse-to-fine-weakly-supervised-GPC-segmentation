@@ -1,6 +1,0 @@
-.\data\nongpc\img\6.png,1
-.\data\nongpc\img\3.png,1
-.\data\nongpc\img\8.png,1
-.\data\nongpc\img\2.png,1
-.\data\nongpc\img\9.png,1
-.\data\nongpc\img\7.png,1
