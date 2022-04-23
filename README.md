@@ -55,7 +55,28 @@ Step 3: carrying out segmentation
 cd tttseg_google_gpc
 python train_regnet040_0.6_update.py
 ```
-## Contributing
+
+## Acknowledgement
+We used the package "segmentation_models_pytorch" and "pytorch-grad-cam"
+thanks for their contributions.  
+
+```
+@misc{Yakubovskiy:2019,
+  Author = {Pavel Yakubovskiy},
+  Title = {Segmentation Models Pytorch},
+  Year = {2020},
+  Publisher = {GitHub},
+  Journal = {GitHub repository},
+  Howpublished = {\url{https://github.com/qubvel/segmentation_models.pytorch}}
+}
+@misc{jacobgilpytorchcam,
+  title={PyTorch library for CAM methods},
+  author={Jacob Gildenblat and contributors},
+  year={2021},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/jacobgil/pytorch-grad-cam}},
+}
+```
 
 
 ## License
