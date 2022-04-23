@@ -35,6 +35,23 @@ python qgis_download_google.py
 The workflow of the proposed method is as follows:   
 ![image](https://user-images.githubusercontent.com/39206462/164873266-3a94972b-ecee-4b0e-8055-a8f3921d3148.png)
 
+## One-by-one step
+Step 1: training the classification network and generating grad-cam++ maps   
+```
+cd tttcls_google_gpc
+python train_regent040_0.6_balance.py
+python generate_cam_balance.py
+```
+Step 2: applying unsupervised segmentation to images   
+refer to the [link](https://github.com/kanezaki/pytorch-unsupervised-segmentation)
+```
+
+```
+Step 3: carrying out segmentation 
+```
+cd tttseg_google_gpc
+python train_regnet040_0.6_update.py
+```
 ## Contributing
 
 
