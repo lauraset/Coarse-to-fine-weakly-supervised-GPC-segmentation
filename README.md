@@ -21,12 +21,17 @@ GPU: NVIDIA GTX 1080 Ti GPU (11G memory)
 ```
 ## Prepare datasets
 Google earth images download steps:
-1. Add a XYZ tile in the browser panel. 
-For google earth images, a available link for XYZ connection is https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}.
-2. Load the created link to QGIS, and open the python in QGIS. 
-3. Run the following code
+1. Add a XYZ tile in the browser panel and load the created link to QGIS  
+For google earth images, a available link for XYZ connection is https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}.   
+2. Make your own image-level labels:   
 ```
-python qgis_download_google.py
+create a vector file (shp)   
+add positive (negative) sample points
+```
+3. open the python console in QGIS. 
+4. Run the following code and change the path of the created vector file. 
+```
+python tttcls_google_qgis_gpc/download_google.py
 ```
 ![image](https://user-images.githubusercontent.com/39206462/147477579-ecdb5dc8-961a-47e6-ba8a-5b3ab30f38a4.png)
 ![image](https://user-images.githubusercontent.com/39206462/147477947-4489ce26-903d-4e04-a37e-b2a4d94881cf.png)   
