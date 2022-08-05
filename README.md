@@ -58,12 +58,12 @@ ptyhon generate_unsupervised_segmentation_v1.py
 ```
 Step 3: generating object-based CAM and applying otsu thresholding.
 see the matlab file: demo_gen_cues_train_labels.m. The basic idea is simple, 
-i.e., calculating the mean values of each object from step 2 and then applying the otsu method to obtain the binary mask (1: foreground, 0: background).
+i.e., calculating the mean values of each object from step 2 and then applying the otsu method to obtain the binary pixel-level mask (1: foreground, 0: background).
 ```
 run demo_gen_cues_train_labels.m 
 ```
 
-Step 4: carrying out segmentation 
+Step 4: carrying out segmentation with the binary mask from step 3
 ```
 cd tttseg_google_gpc
 python train_regnet040_0.6_update.py
