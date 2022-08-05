@@ -56,7 +56,14 @@ There is little difference between the two versions. We just used the v1 in the 
 ptyhon generate_unsupervised_segmentation_v1.py
 [or python generate_unsupervised_segmentation_v2.py]
 ```
-Step 3: carrying out segmentation 
+Step 3: generating object-based CAM and applying otsu thresholding.
+see the matlab file: demo_gen_cues_train_labels.m. The basic idea is simple, 
+i.e., calculating the mean values of each object from step 2 and then applying the otsu method to obtain the binary mask (1: foreground, 0: background).
+```
+run demo_gen_cues_train_labels.m 
+```
+
+Step 4: carrying out segmentation 
 ```
 cd tttseg_google_gpc
 python train_regnet040_0.6_update.py
