@@ -53,8 +53,8 @@ refer to the [link](https://github.com/kanezaki/pytorch-unsupervised-segmentatio
 revise the input path and then run the following code. Note that two versions were provided.   
 There is little difference between the two versions. We just used the v1 in the paper.
 ```
-ptyhon generate_unsupervised_segmentation_v1.py
-[or python generate_unsupervised_segmentation_v2.py]
+ptyhon generate_unsupervised_segmentation_v1.py # for RGB images (8bit)
+[or python generate_unsupervised_segmentation_v2.py] # for multi-spectral images
 ```
 Step 3: generating object-based CAM and applying otsu thresholding.
 see the matlab file: demo_gen_cues_train_labels.m. The basic idea is simple, 
